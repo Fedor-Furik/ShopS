@@ -1,0 +1,123 @@
+html { 
+    overflow-x: hidden; 
+}
+
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    height: 100vh;
+}   
+form{
+    width: 30%;
+    margin: 0 auto;
+}
+.podBLockOneOne{
+    display: flex;
+    justify-content: space-between;
+}
+.podBLockOneTwo{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+input::placeholder{
+    color: black;
+    font-size: 130%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+form input{
+    padding-left: 25px;
+    background-color: rgb(226, 238, 234);
+    width: 45%;
+    height: 70px;
+    border: none;
+    border-radius: 20px;
+}
+input {outline:none;}
+input:active, :focus::placeholder{
+    color: rgba(0, 0, 0, 0);
+    
+}
+.podBLockOneThree{
+    margin-top: 20px;
+    width: 100%;
+}
+.podBLockOneThree input{
+    padding-left: 25px;
+    background-color: rgb(226, 238, 234);
+    width: 96%;
+    height: 120px;
+    border: none;
+    border-radius: 20px;
+}
+.podBLockOneFour{
+    width: 100%;
+    height: 120px;
+    border: none;
+    display: flex;
+}
+.BR{
+    color: white;
+    background-color: rgb(213, 162, 162);
+}
+.BW{
+    background-color: white;
+}
+.BB{
+    color: white;
+    background-color: blue;
+}
+.BBL{
+    color: white;
+    background-color: black;
+}
+.sector{
+    justify-content: center;
+    margin-top: 60px;
+    display: flex;
+    width: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: space-around;
+}
+.sector div{
+    border-radius: 15px;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.podBLockOneThree input::placeholder{
+    transform: translateY(-25px);
+}
+
+.FormSub{
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    height: 60px;
+    margin-top: 60px;
+    border-radius: 30px;
+}
+.ButtZ{
+    background-color: white;
+    width: 12%;
+    border-radius: 30px;
+    height: 80px;
+    font-size: 20px;
+    border: solid black 2px;
+}
+.ButtD{
+    display: flex;
+    justify-content: center;
+    margin-top: 800px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
